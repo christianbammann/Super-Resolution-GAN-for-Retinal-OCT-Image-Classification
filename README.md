@@ -1,6 +1,6 @@
 # Super-Resolution GAN for Retinal OCT Image Classification
 
-This project aims to classify different sleep states from EEG signal recordings through the use of machine and deep learning models.
+This project aims to enhance binary classification of retinal OCT images by leveraging a Super-Resolution GAN (SRGAN) to generate high-resolution images from low-resolution inputs.
 
 ---
 
