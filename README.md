@@ -76,6 +76,18 @@ This project consists of two main components:
 
 ---
 
+## Results
+
+### Model A Performance
+
+| Metric | Value |
+|------|------|
+| Accuracy | 0.935 |
+| F1 Score | 0.924 |
+| AUC | 0.978 |
+
+---
+
 ## Limitations
 
 - SRGAN training was limited due to Google Colab GPU constraints
