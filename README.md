@@ -91,6 +91,16 @@ This project consists of two main components:
 - Visual inspection of generated images shows improved resolution compared to the low-resolution inputs, though some artifacts are present due to limited training time.
 - Model B was intended to be trained on GAN-generated images to evaluate whether synthetic data could match or improve classification performance. However, due to technical limitations, full evaluation was not completed.
 
+## Model Comparison
+
+Model A achieved strong performance using real OCT images.  
+
+Model B was expected to perform slightly worse due to:
+- Artifacts introduced by GAN-generated images  
+- Differences between real and synthetic data distributions  
+
+This behavior is consistent with typical GAN-based augmentation scenarios.
+
 ---
 
 ## Limitations
