@@ -11,10 +11,10 @@ This project explores the use of a Super-Resolution GAN (SRGAN) to enhance retin
 
 ## Dataset
 - Retinal OCT Images (Srinivasan)
-- Classes used: **DME** and **DRUSEN**
+- Classes: **DME** and **DRUSEN**
 - Dataset split:
-  - **70% Training**
-  - **30% Testing**
+  - **70% Train**
+  - **30% Test**
 
 ---
 
@@ -22,10 +22,10 @@ This project explores the use of a Super-Resolution GAN (SRGAN) to enhance retin
 
 This project consists of two main components:
 
-1. **Model A (Baseline Classifier)**  
-   A binary classifier trained on real OCT images resized to **128×128**
+1. **Model A - Baseline Model**  
+   A binary classifier trained on OCT images resized to **128×128**
 
-2. **Model B (GAN-Augmented Classifier)**  
+2. **Model B - SRGAN Model**  
    A classifier intended to be trained on **SRGAN-generated high-resolution images**
 
 ---
