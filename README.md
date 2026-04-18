@@ -21,8 +21,8 @@ The primary goals of this project are:
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | `figures`                                                                           | Folder containing Model B training figures              |  
 | `README.md`                                                                              | Project Summary                                             |
-| `midterm_project.ipynb`                                                                           | Python notebook containing model training and visualizations              |  
-| `midterm_report.pdf`                                                                           | Written project overview and methodologies              |  
+| `midterm_project.ipynb`                                                                           | Python notebook including full implementation              |  
+| `midterm_report.pdf`                                                                           | Formal project overview             |  
 
   
 
