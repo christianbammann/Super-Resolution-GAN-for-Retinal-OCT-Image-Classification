@@ -41,10 +41,49 @@ This project consists of two main components:
 
 ---
 
-## Data Preprocessing
+## Methods
 
-- Images resized to **128×128** for classification
-- Low-resolution inputs generated at **32×32** for SRGAN training
-- Normalization applied using:
-  ```python
-  rescale = 1./255
+### Model A – Baseline Classifier
+- Architecture: Transfer learning CNN
+- Input size: 128×128
+- Final layer:
+  Dense(1, activation='sigmoid')
+- Loss: Binary Crossentropy
+- Optimizer: Adam
+- Training epochs: 30
+- Batch size: 16
+
+---
+
+### SRGAN Model
+- Task: 32×32 → 128×128 super-resolution
+- Generator: CNN with upsampling layers
+- Discriminator: CNN binary classifier
+- Training epochs: 150
+
+---
+
+### Model B – GAN-Augmented Classifier
+- Same architecture as Model A
+- Trained on generated images from SRGAN
+
+## Reproducibility
+
+To reproduce this project:
+
+1. Load the OCT dataset and filter for DME and DRUSEN
+2. Resize images to 128×128 for classification
+3. Downscale images to 32×32 for SRGAN training
+4. Train Model A using transfer learning
+5. Train SRGAN on low-resolution images
+6. Generate high-resolution images using the trained generator
+7. Train Model B using generated images
+8. Evaluate models using Accuracy, F1 Score, and AUC
+
+---
+
+## Conclusion
+
+Model A achieved strong performance on real OCT images.  
+SRGAN demonstrated the ability to generate higher-resolution images, but practical limitations prevented full evaluation of Model B.  
+This highlights both the potential and challenges of GAN-based data augmentation in medical imaging.
