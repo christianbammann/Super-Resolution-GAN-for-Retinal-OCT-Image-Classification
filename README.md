@@ -33,11 +33,11 @@ The primary goals of this project are:
 
 This project consists of two main components:
 
-1. **Model A - Baseline Model**  
+1. **Model A - Baseline Classifier**  
    A binary classifier trained on OCT images resized to **128×128**
 
-2. **Model B - SRGAN Model**  
-   A classifier intended to be trained on **SRGAN-generated high-resolution images**
+2. **Model B - GAN Classifier**  
+   A classifier intended to be trained on high resolution **SRGAN-generated images**
 
 ---
 
