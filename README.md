@@ -46,7 +46,7 @@ This project consists of two main components:
 - Architecture: Transfer learning CNN
 - Input size: 128×128
 - Final layer:
-  Dense(1, activation='sigmoid')
+- `Dense(1, activation='sigmoid')`
 - Loss: Binary Crossentropy
 - Optimizer: Adam
 - Training epochs: 30
