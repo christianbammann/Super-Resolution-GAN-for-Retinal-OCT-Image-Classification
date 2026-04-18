@@ -102,6 +102,6 @@ This project consists of two main components:
 
 ## Conclusion
 
-Model A achieved strong performance on real OCT images.  
-SRGAN demonstrated the ability to generate higher-resolution images, but practical limitations prevented full evaluation of Model B.  
-This highlights both the potential and challenges of GAN-based data augmentation in medical imaging.
+- Model A achieved strong performance on real OCT images.  
+- SRGAN demonstrated the ability to generate higher-resolution images, but practical limitations prevented full evaluation of Model B.  
+- This highlights both the potential and challenges of GAN-based data augmentation in medical imaging.
