@@ -35,7 +35,7 @@ This project consists of two main components:
 1. **Model A - Baseline Classifier**  
    A binary classifier trained on OCT images resized to 128×128
 
-2. **Model B - GAN Classifier**  
+2. **Model B - GAN Augmented Classifier**  
    A classifier intended to be trained on high resolution SRGAN-generated images
 
 ---
@@ -45,8 +45,7 @@ This project consists of two main components:
 ### Model A – Baseline Classifier
 - Architecture: Transfer learning CNN
 - Input size: 128×128
-- Final layer:
-- `Dense(1, activation='sigmoid')`
+- Final layer: `Dense(1, activation='sigmoid')`
 - Loss: Binary Crossentropy
 - Optimizer: Adam
 - Training epochs: 30
@@ -84,6 +83,7 @@ This project consists of two main components:
 | Accuracy | 0.935 |
 | F1 Score | 0.924 |
 | AUC | 0.978 |
+- These results indicate strong classification performance and effective separation between the two classes.
 
 ### Model B
 - The SRGAN model was trained to generate 128×128 images from 32×32 inputs.  
@@ -112,6 +112,7 @@ This behavior is consistent with typical GAN-based augmentation scenarios.
 
 ## Conclusion
 
-- Model A achieved strong performance on real OCT images.  
+- Model A achieved strong performance on real OCT images.
+- Despite limitations, the overall pipeline demonstrates a complete GAN-based augmentation framework.
 - SRGAN demonstrated the ability to generate higher-resolution images, but practical limitations prevented full evaluation of Model B.  
 - This highlights both the potential and challenges of GAN-based data augmentation in medical imaging.
