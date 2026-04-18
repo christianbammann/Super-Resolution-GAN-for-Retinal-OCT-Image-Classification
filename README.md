@@ -78,7 +78,7 @@ This project consists of two main components:
 
 ## Results
 
-### Model A Performance
+### Model A
 
 | Metric | Value |
 |------|------|
@@ -86,6 +86,7 @@ This project consists of two main components:
 | F1 Score | 0.924 |
 | AUC | 0.978 |
 
+### Model B
 - The SRGAN model was trained to generate 128×128 images from 32×32 inputs.  
 - Visual inspection of generated images shows improved resolution compared to the low-resolution inputs, though some artifacts are present due to limited training time.
 
