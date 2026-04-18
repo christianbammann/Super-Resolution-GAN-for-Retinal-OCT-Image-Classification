@@ -34,10 +34,10 @@ The primary goals of this project are:
 This project consists of two main components:
 
 1. **Model A - Baseline Classifier**  
-   A binary classifier trained on OCT images resized to **128×128**
+   A binary classifier trained on OCT images resized to 128×128
 
 2. **Model B - GAN Classifier**  
-   A classifier intended to be trained on high resolution **SRGAN-generated images**
+   A classifier intended to be trained on high resolution SRGAN-generated images
 
 ---
 
@@ -85,6 +85,9 @@ This project consists of two main components:
 | Accuracy | 0.935 |
 | F1 Score | 0.924 |
 | AUC | 0.978 |
+
+The SRGAN model was trained to generate 128×128 images from 32×32 inputs.  
+Visual inspection of generated images shows improved resolution compared to the low-resolution inputs, though some artifacts are present due to limited training time.
 
 ---
 
