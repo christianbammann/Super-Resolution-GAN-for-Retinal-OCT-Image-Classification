@@ -15,11 +15,6 @@ The primary goals of this project are:
 
 ---
 
-## Authors
-- **Christian Bammann** – Data preprocessing, model development, experimentation, and documentation
-
----
-
 ## Contents
 
 | File                                                                                     | Description                                                 |
