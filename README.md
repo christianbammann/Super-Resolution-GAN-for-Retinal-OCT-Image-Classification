@@ -37,7 +37,7 @@ This project consists of three main components:
 2. **SRGAN - Generator + Discriminator**  
    A generative adversarial network trained to perform image super-resolution by converting low-resolution OCT images into higher-resolution images
    
-4. **Model B - GAN Augmented Classifier**  
+3. **Model B - GAN Augmented Classifier**  
    A classifier intended to be trained on high resolution SRGAN-generated images
 
 ---
@@ -85,6 +85,7 @@ This project consists of three main components:
 | Accuracy | 0.935 |
 | F1 Score | 0.924 |
 | AUC | 0.978 |
+
 - These results indicate strong classification performance and effective separation between the two classes.
 
 ### Model B
