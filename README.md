@@ -89,6 +89,7 @@ This project consists of two main components:
 ### Model B
 - The SRGAN model was trained to generate 128×128 images from 32×32 inputs.  
 - Visual inspection of generated images shows improved resolution compared to the low-resolution inputs, though some artifacts are present due to limited training time.
+- Model B was intended to be trained on GAN-generated images to evaluate whether synthetic data could match or improve classification performance. However, due to technical limitations, full evaluation was not completed.
 
 ---
 
