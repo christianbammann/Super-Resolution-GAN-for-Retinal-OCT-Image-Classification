@@ -25,9 +25,7 @@ The primary goals of this project are:
 ## Dataset
 - Retinal OCT Images (Srinivasan)
 - Classes: **DME** and **DRUSEN**
-- Dataset split:
-  - **70% Train**
-  - **30% Test**
+- Dataset split: **70% Train** / **30% Test**
 
 ---
 
