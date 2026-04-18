@@ -5,7 +5,7 @@ This project aims to enhance binary classification of retinal OCT images by leve
 
 --- 
 
-## Project Objectives
+## Objectives
 
 The primary goals of this project are:
 
@@ -13,7 +13,6 @@ The primary goals of this project are:
 2. Implement a Super-Resolution GAN to enhance image quality
 3. Use generated images to train a second classifier
 4. Compare the performance of both models using different metrics such as F1, Accuracy, AUC
-
 
 ---
 
