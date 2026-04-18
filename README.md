@@ -53,23 +53,17 @@ This project consists of two main components:
 - Training epochs: 30
 - Batch size: 16
 
----
-
 ### SRGAN Model
 - Task: 32×32 → 128×128 super-resolution
 - Generator: CNN with upsampling layers
 - Discriminator: CNN binary classifier
 - Training epochs: 150
 
----
-
 ### Model B – GAN-Augmented Classifier
 - Same architecture as Model A
 - Trained on generated images from SRGAN
 
 ## Reproducibility
-
-To reproduce this project:
 
 1. Load the OCT dataset and filter for DME and DRUSEN
 2. Resize images to 128×128 for classification
@@ -79,6 +73,14 @@ To reproduce this project:
 6. Generate high-resolution images using the trained generator
 7. Train Model B using generated images
 8. Evaluate models using Accuracy, F1 Score, and AUC
+
+---
+
+## Limitations
+
+- SRGAN training was limited due to Google Colab GPU constraints
+- Keras Lambda layer prevented reloading the trained generator
+- As a result, Model B could not be fully evaluated
 
 ---
 
