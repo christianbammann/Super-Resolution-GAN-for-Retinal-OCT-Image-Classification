@@ -1,6 +1,5 @@
 # Super-Resolution GAN for Retinal OCT Image Classification
 
-
 This project aims to enhance binary classification of retinal OCT images by leveraging a Super-Resolution GAN (SRGAN) to generate high-resolution images from low-resolution inputs.
 
 --- 
@@ -30,12 +29,15 @@ The primary goals of this project are:
 
 ## Project Overview
 
-This project consists of two main components:
+This project consists of three main components:
 
 1. **Model A - Baseline Classifier**  
    A binary classifier trained on OCT images resized to 128×128
 
-2. **Model B - GAN Augmented Classifier**  
+2. **SRGAN - Generator + Discriminator**  
+   A generative adversarial network trained to perform image super-resolution by converting low-resolution OCT images into higher-resolution images
+   
+4. **Model B - GAN Augmented Classifier**  
    A classifier intended to be trained on high resolution SRGAN-generated images
 
 ---
