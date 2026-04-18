@@ -86,8 +86,8 @@ This project consists of two main components:
 | F1 Score | 0.924 |
 | AUC | 0.978 |
 
-The SRGAN model was trained to generate 128×128 images from 32×32 inputs.  
-Visual inspection of generated images shows improved resolution compared to the low-resolution inputs, though some artifacts are present due to limited training time.
+- The SRGAN model was trained to generate 128×128 images from 32×32 inputs.  
+- Visual inspection of generated images shows improved resolution compared to the low-resolution inputs, though some artifacts are present due to limited training time.
 
 ---
 
